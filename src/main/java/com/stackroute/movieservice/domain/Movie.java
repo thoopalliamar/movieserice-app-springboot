@@ -2,6 +2,9 @@ package com.stackroute.movieservice.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -10,6 +13,7 @@ import lombok.NoArgsConstructor;
 
 
 @Entity 
+@Document
 //@Data
 //@AllArgsConstructor
 //@NoArgsConstructor
